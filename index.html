@@ -9,7 +9,10 @@
     <div id="root"></div>
     <script>
       const redir = sessionStorage.getItem('gh:redirect');
-      if (redir) { sessionStorage.removeItem('gh:redirect'); history.replaceState(null, '', '/' + redir); }
+      if (redir) {
+        sessionStorage.removeItem('gh:redirect');
+        history.replaceState(null, '', '/' + redir);
+      }
     </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
