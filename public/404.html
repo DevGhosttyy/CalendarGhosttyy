@@ -1,11 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <script>
-      // Detecta el nombre del repo en GitHub Pages (primer segmento)
       var parts = location.pathname.split('/');
-      // pathname comienza con '/', así que repo es parts[1]
       var repo = parts[1] || '';
       var base = repo ? '/' + repo + '/' : '/';
       var segment = location.pathname.replace(base, '');
