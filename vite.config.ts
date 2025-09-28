@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
       manifest: {
         name: 'Calendario PWA',
         short_name: 'Calendario',
-        start_url: '/calendar-app/',
+        start_url: '/CalendarGhosttyy/',
         display: 'standalone',
         background_color: '#0b1120',
         theme_color: '#0ea5e9',
