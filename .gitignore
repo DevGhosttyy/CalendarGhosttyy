@@ -1,0 +1,35 @@
+# Node
+node_modules/
+pnpm-lock.yaml
+
+# Build output
+dist/
+.vite/
+.cache/
+out/
+
+# Env files (claves sensibles)
+.env
+.env.local
+.env.*.local
+
+# Supabase secrets (si usas CLI)
+.supabase/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Tests / coverage
+coverage/
+playwright-report/
+test-results/

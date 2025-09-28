@@ -1,0 +1,6 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><script>
+  const segment = location.pathname.replace(/^\/calendar-app\//, '');
+  sessionStorage.setItem('gh:redirect', segment + location.search + location.hash);
+  location.replace('/calendar-app/');
+</script></head><body></body></html>
